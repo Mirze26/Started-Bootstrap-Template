@@ -1,0 +1,368 @@
+body {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+
+header {
+
+    background-size: cover;
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("/src/image/bg-masthead.jpg");
+    height: 100vh;
+
+    .nav-title {
+
+        margin-top: 25px;
+    }
+
+
+    .nav-title a {
+
+        color: rgba(255, 255, 255, 0.7);
+        font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 20px;
+
+    }
+
+    .nav-title a:hover {
+
+        color: white;
+    }
+
+
+    .nav-list {
+
+        margin-top: 16px;
+        float: right;
+    }
+
+
+    .nav-list li {
+        list-style: none;
+        margin: 10px;
+
+
+    }
+
+
+    .nav-list li a {
+
+        text-decoration: none;
+
+        color: rgba(255, 255, 255, 0.7);
+        font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-weight: 700;
+        font-size: 0.9rem;
+
+    }
+
+
+
+    .nav-list li a:hover {
+
+        color: white;
+    }
+
+
+    .text-title {
+
+        text-align: center;
+        margin-top: 415px;
+        color: white;
+
+    }
+
+
+    .text-title h1 {
+
+        font-size: 3.5rem;
+
+    }
+
+
+
+    .cutting {
+
+        width: 3%;
+        height: 2px;
+        background-color: orangered;
+        position: absolute;
+        left: 930px;
+        margin-top: 20px;
+    }
+
+
+
+    .text-des {
+
+        width: 38%;
+        margin-top: 45px;
+        position: absolute;
+        left: 596px;
+        text-align: center;
+        font-size: 1.15rem;
+        color: rgba(255, 255, 255, 0.75)
+    }
+
+
+
+    .submit {
+
+        text-align: center;
+        margin-top: 180px;
+    }
+
+
+
+    .submit button {
+
+        width: 190px;
+        height: 58px;
+        border-radius: 10rem;
+        background-color: orangered;
+        color: white;
+        border-style: none;
+        font-size: 0.85rem;
+        font-weight: 700;
+
+
+    }
+
+
+
+    .submit button:hover {
+
+        background-color: #c34e2e;
+    }
+
+
+
+}
+
+
+main {
+
+    #pageSection-one {
+
+        background-color: orangered;
+        width: 100%;
+        height: 450px;
+
+
+
+
+        .text-title {
+
+            text-align: center;
+            padding-top: 120px;
+
+        }
+
+
+        .text-title h2 {
+
+            color: rgb(241, 230, 230);
+        }
+
+
+        .cutting {
+
+            position: absolute;
+            left: 920px;
+            top: 1170px;
+            width: 3%;
+            height: 3px;
+            background-color: antiquewhite;
+        }
+
+
+        .text-des {
+
+            text-align: center;
+            text-align: center;
+            padding: 0 586px;
+            padding-top: 50px;
+            color: rgba(255, 255, 255, 0.75)
+        }
+
+
+        .button {
+
+            text-align: center;
+            padding-top: 15px;
+        }
+
+
+        .button button {
+
+            width: 150px;
+            height: 60px;
+            border-radius: 10rem;
+            border-style: none;
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+
+
+        .button button:hover {
+
+            background-color: #d3d4d5;
+            ;
+        }
+
+
+    }
+
+
+    #pageSection-two {
+
+        .text-title {
+
+            text-align: center;
+            padding-top: 130px;
+            color: black;
+        }
+
+
+        .cutting {
+
+            width: 3%;
+            height: 3px;
+            background-color: orangered;
+            position: absolute;
+            left: 926px;
+            margin-top: 10px;
+        }
+
+
+
+
+        .diamondIcon {
+
+            padding-top: 100px;
+            font-size: 2.5rem;
+            color: orangered;
+            text-align: center;
+        }
+
+
+        .diamond-title {
+
+            text-align: center;
+            padding: 0 24px;
+        }
+
+
+        .diamond-title p {
+
+            color: #878787;
+        }
+    }
+
+
+    #pageSection-three {
+
+        .photos {
+
+            position: relative;
+            top: 120px;
+            cursor: pointer;
+            width: 100%;
+        }
+
+
+        .photos img {
+
+            width: 634px;
+            height: auto;
+        }
+
+
+
+    }
+
+
+    #pageSection-four {
+
+        width: 100%;
+        height: 500px;
+        background-color: rgba(33, 37, 41, 1);
+
+
+
+        .text-title {
+
+            padding-top: 253px;
+            text-align: center;
+            color: white;
+
+        }
+
+
+        .submit {
+
+            text-align: center;
+            padding-top: 20px;
+        }
+
+
+        .submit button {
+
+            width: 190px;
+            height: 58px;
+            border-radius: 10rem;
+            font-size: 0.85rem;
+            font-weight: 700;
+        }
+
+
+
+        .submit button:hover {
+
+            background-color: #d3d4d5;
+            ;
+        }
+
+
+    }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+footer{
+
+    .footer{
+
+        width: 100%;
+        height: 100px;
+        background-color: rgba(248,249 ,250 ,1 );
+        text-align: center;
+        padding-top: 38px;
+        color: #6e6e6e;
+    }
+}
